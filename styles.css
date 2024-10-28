@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 10px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    background-color: #009688;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  /* Estado Default */
+  button:hover {
+    background-color: #004d40;
+  }
+
+  /* Estado Presionado */
+  button:active {
+    background-color: #00251a;
+    transform: scale(0.95);
+  }
+
+  /* Estado Desactivado */
+  button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+    border-color: #bdbdbd;
+    color: #757575;
+  }
+
+  /* Variaciones */
+  .button-outline {
+    background-color: transparent;
+    color: #00796b;
+  }
+
+  .button-outline:hover {
+    background-color: #00796b;
+    color: #ffffff;
+  }
+
+  .button-danger {
+    background-color: #e53935;
+    border-color: #b71c1c;
+  }
+
+  .button-danger:hover {
+    background-color: #b71c1c;
+  }
